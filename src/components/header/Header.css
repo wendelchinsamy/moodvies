@@ -1,0 +1,31 @@
+.app-navbar {
+  background-color: #3f0071;
+  border: none;
+}
+
+.app-navbar .brand {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.app-navbar .brand,
+.app-navbar .brand:hover,
+.app-navbar .brand:focus {
+  color: #fff;
+}
+
+.app-navbar .nav-link {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.app-navbar .nav-link:hover,
+.app-navbar .nav-link:focus,
+.app-navbar .nav-link:active {
+  color: #fff;
+}

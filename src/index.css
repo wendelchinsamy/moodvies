@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Elements */
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  color: #222;
+  background-color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.app-wrapper {
+  margin-bottom: 200px;
+}
+/* Form */
+
+.form-control {
+  border: 1px solid #cecece;
+  border-radius: 0;
+  background-color: #fafafa;
+}
+
+.form-control:focus,
+.form-control:active {
+  border: 1px solid #b0acac;
+  box-shadow: none;
+  background-color: #fafafa;
+}
+
+.form-control-lg {
+  font-size: 20px;
+  padding: 15px;
+}
+
+/* Buttons */
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #fb2576;
+  border-color: #fb2576;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #f76ca1;
+  border-color: #f76ca1;
+}
+
+.btn-secondary {
+  background-color: #d27685;
+  border-color: #d27685;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  background-color: #efa4b0;
+  border-color: #efa4b0;
+}
+
+/* Utility */
+.no-radius {
+  border-radius: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.app-search {
+  margin-bottom: 30px;
+}
+
+.not-found {
+  margin-top: 100px;
+}
+
+.not-found-title {
+  font-size: 100px;
+  letter-spacing: 2px;
+  margin-bottom: 100px;
+}
+
+.not-found-text {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

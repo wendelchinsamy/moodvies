@@ -1,0 +1,71 @@
+.app-search-list-item {
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 15px 0 !important;
+}
+
+.app-search-list-item .image {
+  height: 250px;
+  width: auto;
+}
+
+.app-search-list-item .info-label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #000;
+}
+
+.app-search-list-item .info {
+  margin-bottom: 15px;
+}
+
+.app-search-list-item .review {
+  white-space: pre-wrap;
+}
+
+.app-search-list-item .title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+}
+
+.app-search-list-item .rating {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.app-search-list-item .high {
+  color: #2e9247;
+}
+
+.app-search-list-item .mid {
+  color: #9b9032;
+}
+
+.app-search-list-item .low {
+  color: #a32866;
+}
+
+.heart {
+  margin-right: 10px;
+}
+
+.empty-results {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 100px 15px;
+  text-align: center;
+  margin-top: 30px;
+  color: #000;
+}
+
+.action-button {
+  margin-top: 30px;
+}
+
+.action-button-text {
+  margin-left: 10px;
+}

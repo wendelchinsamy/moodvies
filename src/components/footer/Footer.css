@@ -1,0 +1,28 @@
+.app-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #eee;
+}
+
+.app-footer a {
+  text-decoration: none;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.text,
+.text:hover,
+.text:focus,
+.text:active {
+  color: #222;
+}
+
+.logo {
+  height: 50px;
+}
