@@ -8,7 +8,7 @@ function Header() {
   return (
     <Navbar expand="md" className="app-navbar">
       <Container>
-        <Navbar.Brand href="/" className="brand">
+        <Navbar.Brand as={Link} to={"/"} className="brand">
           MOODVIES
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
